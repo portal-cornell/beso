@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+cbet_datasets
+outputs/
+
 # C extensions
 *.so
 

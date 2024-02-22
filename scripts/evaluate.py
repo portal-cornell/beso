@@ -24,7 +24,7 @@ def main(cfg: DictConfig) -> None:
     if cfg.log_wandb:
         run = wandb.init(
             project='gc_block_push_sampler_comparison', 
-            entity='add_wandb_acc_name', 
+            entity='dan-prithwish', 
             group=f'noise_comp_' + cfg.sampler_type,
             mode="disabled",  
             config=wandb.config

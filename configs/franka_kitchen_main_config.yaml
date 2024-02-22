@@ -1,11 +1,11 @@
 defaults:
-  - agents: beso_franka_kitchen
+  - agents: beso_kitchen
   - workspaces: franka_kitchen_manager
 
 log_dir: logs/franka_kitchen/
 plot_dir: plots/franka_kitchen/
 plot_name: ${now:%Y-%m-%d}.png
-data_path: /path/to/beso/environments/data/cbet_datasets/relay_kitchen
+data_path: /home/portal/beso/cbet_datasets/relay_kitchen
 
 hydra:
   run:
@@ -17,7 +17,7 @@ hydra:
 group: group_name
 
 wandb:
-  entity: add_wandb_acc_name
+  entity: dan-prithwish
   project: beso_experiments
 
 device: 'cuda'
