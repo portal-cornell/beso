@@ -6,7 +6,7 @@ model_store_path: '/home/portal/beso/trained_models/kitchen/c_beso_1'
 # next define some general stuff for evaluation
 log_wandb: False
 
-num_runs: 100
+num_runs: 1
 n_inference_steps: 3
 # chose one of the samplers mentioned in the readme file here
 sampler_type: euler_ancestral
@@ -27,7 +27,7 @@ device: cpu
 # not really used
 use_scaler: False
 # this is to record videos of the evaluation
-render_workspace:  False
+render_workspace:  True
 store_video:  False
 
 ### next chose what kind of evaluation you want to do

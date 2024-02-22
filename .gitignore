@@ -5,6 +5,7 @@ __pycache__/
 
 cbet_datasets
 outputs/
+*.mp4
 
 # C extensions
 *.so

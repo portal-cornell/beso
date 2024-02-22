@@ -19,7 +19,7 @@ torch.cuda.empty_cache()
 
 @hydra.main(config_path="../configs", config_name="evaluate_kitchen.yaml")
 def main(cfg: DictConfig) -> None:
-    
+
     wandb.config = cfg
     if cfg.log_wandb:
         run = wandb.init(
